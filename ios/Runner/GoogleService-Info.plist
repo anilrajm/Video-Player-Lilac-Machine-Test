@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA-lvfULOudm09sookVylyb7sYFC3XRhhI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>514456319716</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.lilacMachineTest</string>
+	<key>PROJECT_ID</key>
+	<string>lilac-machine-test-ad9a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lilac-machine-test-ad9a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:514456319716:ios:33bad716a3fbbc1d429ef1</string>
+</dict>
+</plist>
