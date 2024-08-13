@@ -9,6 +9,7 @@ import 'package:lilac_machine_test/home/widgets/custom_download_button.dart';
 import 'package:lilac_machine_test/home/widgets/custom_drawer.dart';
 import 'package:lilac_machine_test/home/widgets/display_picture.dart';
 import 'package:lilac_machine_test/home/widgets/download_progress_indicator.dart';
+import 'package:lilac_machine_test/home/widgets/drawer_button.dart';
 import 'package:lilac_machine_test/home/widgets/duration_indicator.dart';
 import 'package:lilac_machine_test/home/widgets/settings_button.dart';
 import 'package:video_player/video_player.dart';
@@ -152,7 +153,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       DurationDisplay(
                           videoPlayerController: _videoPlayerController),
-                      const DrawerButton(),
+                      const CustomDrawerButton(),
                       DisplayPicture(user: _user),
                       Positioned(
                         bottom: 35,
