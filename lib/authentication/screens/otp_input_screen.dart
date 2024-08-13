@@ -22,7 +22,7 @@ import '../widgets/build_otp_field.dart';
 
 
 class OtpScreen extends StatefulWidget {
-  const OtpScreen({Key? key}) : super(key: key);
+  const OtpScreen({super.key});
 
   @override
   _OtpScreenState createState() => _OtpScreenState();
@@ -30,7 +30,7 @@ class OtpScreen extends StatefulWidget {
 
 class _OtpScreenState extends State<OtpScreen> {
    final fire.FirebaseAuth auth = fire.FirebaseAuth.instance;
-  String _token = '';
+  final String _token = '';
   bool _isLoading = false;
   String otpCode = '';
 
@@ -97,10 +97,10 @@ class _OtpScreenState extends State<OtpScreen> {
               SizedBox(
                 height: 10.h,
               ),
-              Row(
+              Wrap(
                 children: [
                   Text(
-                      "We will send an OTP to your number ${userData.phoneNo}\n Please verify",
+                      "We will send an OTP to your number ${userData.phoneNo}. Please verify",
                       style: TT.f16w400bluishGrey),
                   SizedBox(
                     width: 5.w,

@@ -8,10 +8,10 @@ class OtpCountdown extends StatelessWidget {
   final String formatDuration;
 
   const OtpCountdown({
-    Key? key,
+    super.key,
     required this.durationInSeconds,
     required this.formatDuration,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
